@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+.whatsapp {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(6, 180, 70);
+  position: fixed;
+  right: 15px;
+  bottom: 25px;
+  font-size: 25px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px black;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.whatsapp:hover {
+  background-color: rgb(48, 47, 49);
+}
+
+.whatsapp i {
+  line-height: 40px;
+}
+
+.whatsapp i:hover {
+  color: green;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Mukta", sans-serif;
+}
+
+header {
+  background-color: rgb(0, 59, 81);
+  margin-bottom: 0;
+  border: 1px solid rgb(0, 0, 0);
+}
+header .logoimg {
+  height: 25px;
+  width: 25px;
+}
+header .title {
+  color: rgb(0, 0, 0);
+}
+header span {
+  color: rgb(255, 255, 255);
+}
+
+.btnbar {
+  background-color: rgb(0, 59, 81);
+}
+
+.btnbar li a {
+  color: rgb(255, 255, 255);
+}
+
+.btnbar li a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.nav-link {
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+main {
+  width: 100%;
+  background-color: rgb(48, 47, 49);
+}
+
+h1 {
+  background-color: rgb(255, 255, 255);
+  width: 95%;
+  margin: 0 auto;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgb(0, 59, 81);
+  font-weight: 700;
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 3rem;
+}
+
+.art1 {
+  height: auto;
+  background-color: rgb(48, 47, 49);
+}
+
+.contain {
+  background-color: rgb(0, 59, 81);
+  width: 80%;
+  border: 1px solid rgb(0, 0, 0);
+  height: auto;
+  margin: 0 auto;
+}
+.contain .p1 {
+  color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-family: "Mukta", sans-serif;
+}
+
+.imgind {
+  border: 1px solid rgb(0, 59, 81);
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.p2 {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-family: "Mukta", sans-serif;
+  text-align: center;
+}
+
+/*footer*/
+footer {
+  height: 140px;
+  padding: 15px;
+  background-color: rgb(0, 59, 81);
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+footer .redes a {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+footer p {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.redes a:hover {
+  background-color: rgb(48, 47, 49);
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 2px;
+}
+
+/*nosotros*/
+.pnosotros {
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-top: 2rem;
+  border: 2px solid rgb(0, 59, 81);
+}
+
+h2 {
+  font-weight: 600;
+  text-decoration: underline;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 5px rgb(0, 59, 81);
+  color: rgb(255, 255, 255);
+}
+
+h3 {
+  font-family: "Mukta", sans-serif;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-weight: 800;
+  width: 90%;
+}
+
+.panosotros {
+  background-color: rgb(0, 59, 81);
+  color: rgb(255, 255, 255);
+  width: 80%;
+  margin: 5px auto;
+  font-size: 1rem;
+  font-weight: 800;
+  text-align: center;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.panosotros1 {
+  background-color: rgb(0, 59, 81);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  margin: 1rem auto;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 0.6rem;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+/*servicios*/
+.pservicios {
+  height: 4rem;
+  width: 4rem;
+  margin: 15px auto;
+}
+
+.paservicios {
+  width: 60%;
+  margin: 3rem auto;
+  color: rgb(255, 255, 255);
+}
+
+.card {
+  background-color: rgb(0, 59, 81);
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.list-serv {
+  list-style: none;
+  margin: 2px;
+  padding: 5px;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+}
+
+.d-flex {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btnserv {
+  background-color: rgb(0, 59, 81);
+  padding: 8px;
+  margin-bottom: 5rem;
+  border-radius: 5px;
+}
+
+.btnserv a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+.btnserv a:hover {
+  color: rgb(0, 0, 0);
+}
+
+/*contacto*/
+.form-floating {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.form-select {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.btnenviar {
+  background-color: rgb(0, 59, 81);
+  padding: 8px;
+  margin-bottom: 5rem;
+  border-radius: 5px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+
+.btnenviar:hover {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.iframe {
+  margin-top: 30px;
+  margin-bottom: -8px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
